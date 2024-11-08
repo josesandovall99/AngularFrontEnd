@@ -1,0 +1,19 @@
+<section class="dashboard">
+    <h1>Lista de Tipos de Género</h1>
+    <table class="tipo-genero-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let tipo of tiposGeneros">
+                <td>{{ tipo.id }}</td>
+                <td>{{ tipo.nombre }}</td>
+                <td>{{ tipo.estado }}</td>
+              </tr>
+        </tbody>
+    </table>
+

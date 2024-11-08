@@ -1,0 +1,16 @@
+<h1>Crear Tipo de Género</h1>
+            <form id="tipoGeneroForm">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="estado">Estado:</label>
+                <select id="estado" name="estado" required>
+                    <option value="true">Activo</option>
+                    <option value="false">Inactivo</option>
+                </select>
+
+                <button type="submit">Crear</button>
+                <button type="button" class="btn-update">Actualizar</button>
+                <button type="button" class="btn-delete">Eliminar</button>
+            </form>
+            <p id="error-message" class="error"></p>

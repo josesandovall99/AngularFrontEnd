@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geminis APP - Dashboard</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+<div class="container">
+    <aside class="sidebar">
+        <div class="logo">
+            <img src="images/Logo_Web-removebg-preview.png" alt="Logo" class="logo-image">
+            Geminis APP</div>
+        <div class="user-info">
+            <img src="https://via.placeholder.com/40" alt="User Avatar" class="avatar">
+            <span>Pedro Monsalve</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active"><span class="icon">🏠</span>Dashboard</a></li>
+                <li class="has-submenu">
+                    <a href="#"><span class="icon">📊</span>Principal</a>
+                    <ul class="submenu">
+                        <li><a href="gestionar-alumnos.html">Gestionar Alumnos</a></li>
+                        <li><a href="gestionar-asignaturas.html">Gestionar Asignaturas</a></li>
+                        <li><a href="gestionar-curso.html">Gestionar Curso</a></li>
+                        <li><a href="gestionar-pensum.html">Gestionar Pensum</a></li>
+                        <li><a href="gestionar-solicitudes.html">Gestionar Solicitudes</a></li>
+                        <li><a href="gestionar-docentes.html">Gestionar Docentes</a></li>
+                        <li><a href="gestionar-sexo.html">Gestionar Tipo Genero</a></li>
+                        <li><a href="gestionar-tipo-genero.html">Gestionar Tipo Identificacion</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"><span class="icon">📈</span>Reportes</a></li>
+                <li><a href="#"><span class="icon">⚙️</span>Configuración</a></li>
+                <li><a href="#"><span class="icon">👥</span>Administrador contactos</a></li>
+                <li><a href="#"><span class="icon">🔔</span>Notificaciones</a></li>
+                <li><a href="#"><span class="icon">💬</span>Chat con visitantes</a></li>
+                <li><a href="#"><span class="icon">🛠️</span>Configuración aplicación</a></li>
+                <li><a href="#"><span class="icon">🌐</span>Redes sociales</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <main class="content">
+        <header>
+            <div class="search-bar">
+                <input type="text" placeholder="Busca por categoría...">
+                <button>🔍</button>
+            </div>
+            <div class="user-menu">
+                <span>Español (ESP)</span>
+                <span class="date-time">11 octubre 2023 17:46:24</span>
+                <span class="greeting">Buenos tardes</span>
+            </div>
+        </header>
+        <section class="dashboard">
+            <h1>ADMINISTRADOR</h1>
+            <p>Bienvenido a la sección principal</p>
+            <app-root></app-root>
+    </main>
+</div>
+</body>
+</html>
